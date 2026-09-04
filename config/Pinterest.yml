@@ -1,0 +1,123 @@
+pinterest:
+  enabled: true
+
+  account:
+    language: "it"
+    target_market: "Italy"
+
+  strategy:
+    principle: >
+      Pinterest is used as a discovery and traffic channel.
+      Pins should provide immediate value and lead users to
+      the most relevant article rather than directly pushing
+      affiliate offers.
+
+    funnel:
+      - "Pinterest"
+      - "Daily Lesson"
+      - "Related Lesson"
+      - "Weekly Pillar"
+      - "Relevant Site Content"
+      - "Babbel CTA"
+
+  weekly_content:
+    pins_per_week:
+      minimum: 6
+      recommended: 8
+      maximum: 12
+
+    recommended_distribution:
+      monday:
+        content: "dialogue"
+        pins: 1
+
+      tuesday:
+        content: "vocabulary"
+        pins: 1
+
+      wednesday:
+        content: "native_expressions"
+        pins: 1
+
+      thursday:
+        content: "grammar"
+        pins: 1
+
+      friday:
+        content: "idioms_informal"
+        pins: 1
+
+      saturday:
+        content: "culture"
+        pins: 1
+
+      sunday:
+        content: "weekly_pillar"
+        pins: 2
+
+  pin:
+    language: "Italian"
+
+    title:
+      max_length: 100
+      keyword_first_when_natural: true
+      curiosity_allowed: true
+
+    description:
+      max_length: 500
+      include_keywords: true
+      natural_language: true
+      include_cta: true
+      avoid_keyword_stuffing: true
+
+    design:
+      aspect_ratio: "2:3"
+      recommended_size: "1000x1500"
+      mobile_first: true
+      text_overlay: true
+      readable_text: true
+      minimal_design: true
+
+  pin_angles:
+    - "How to say..."
+    - "Useful English phrases"
+    - "English vocabulary"
+    - "Natural English"
+    - "Common mistakes"
+    - "Real-life English"
+    - "English conversation"
+    - "English tips"
+    - "English culture"
+
+  weekly_pillar_pin:
+    purpose: "Promote the complete weekly guide"
+
+    angles:
+      - "Complete guide"
+      - "Everything you need to know"
+      - "Learn English through a real situation"
+      - "Weekly English lesson"
+
+  linking:
+    enabled: true
+    destination_strategy: "most_relevant_article"
+
+    rules:
+      dialogue_pin: "link_to_dialogue"
+      vocabulary_pin: "link_to_vocabulary"
+      expression_pin: "link_to_expressions"
+      grammar_pin: "link_to_grammar"
+      idiom_pin: "link_to_idiom"
+      culture_pin: "link_to_culture"
+      pillar_pin: "link_to_weekly_pillar"
+
+  affiliate:
+    direct_sales_pins: false
+    hard_sales_language: false
+    educational_first: true
+
+  hashtags:
+    enabled: false
+    strategy: >
+      Do not rely on hashtags as the primary Pinterest SEO mechanism.
+      Prioritize keyword-rich titles, descriptions and relevant destinations.
