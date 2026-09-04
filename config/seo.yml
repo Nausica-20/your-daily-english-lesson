@@ -1,0 +1,144 @@
+seo:
+  site:
+    default_language: "it"
+    target_country: "IT"
+    target_audience: "Italian speakers learning English"
+
+  goals:
+    - "Organic search traffic"
+    - "Pinterest search traffic"
+    - "Topical authority"
+    - "Internal linking"
+    - "Long-term evergreen traffic"
+
+  keyword_strategy:
+    primary:
+      - "imparare inglese"
+      - "inglese quotidiano"
+      - "inglese parlato"
+      - "inglese per principianti"
+      - "inglese naturale"
+      - "frasi inglesi"
+      - "inglese pratico"
+
+    secondary:
+      - "inglese conversazione"
+      - "inglese vita quotidiana"
+      - "espressioni inglesi"
+      - "vocabolario inglese"
+      - "grammatica inglese"
+      - "inglese americano"
+      - "inglese britannico"
+
+  weekly_theme_strategy:
+    principle: >
+      Each weekly theme targets a real-life search intent
+      while also contributing to the broader topical authority
+      of the site.
+
+    example:
+      theme: "Coffee Shop"
+      keywords:
+        - "inglese al bar"
+        - "ordinare un caffè in inglese"
+        - "frasi inglesi al bar"
+        - "coffee shop english"
+        - "come ordinare un caffè in inglese"
+
+  article:
+    title:
+      max_length: 65
+      include_primary_keyword: true
+      natural_language: true
+
+    meta_description:
+      min_length: 140
+      max_length: 160
+      include_primary_keyword: true
+      avoid_keyword_stuffing: true
+
+    headings:
+      h1_count: 1
+      logical_h2_h3_structure: true
+      keywords_in_headings_when_natural: true
+
+    content:
+      search_intent_first: true
+      helpful_content_first: true
+      keyword_density:
+        strategy: "natural"
+        fixed_percentage: false
+
+  weekly_pillar:
+    seo_role: "pillar"
+    primary_keyword_pattern: "{theme} English"
+    secondary_keyword_patterns:
+      - "inglese {theme}"
+      - "frasi inglesi {theme}"
+      - "inglese quotidiano {theme}"
+      - "{theme} English phrases"
+
+    requirements:
+      - "Answer the main search intent quickly."
+      - "Link to all six weekly lessons."
+      - "Use descriptive anchor text."
+      - "Include related semantic keywords naturally."
+      - "Avoid duplicating entire daily articles."
+      - "Provide enough original value to stand alone."
+
+  internal_linking:
+    enabled: true
+
+    weekly:
+      daily_to_pillar: true
+      pillar_to_daily: true
+      daily_to_related_daily: true
+      previous_week: true
+      next_week: true
+
+    anchor_text:
+      descriptive: true
+      avoid:
+        - "clicca qui"
+        - "leggi qui"
+        - "scopri di più"
+
+  canonical:
+    enabled: true
+    self_canonical: true
+
+  indexing:
+    index_pillars: true
+    index_daily_lessons: true
+    index_expression_pages: true
+    noindex_duplicates: true
+
+  duplicate_prevention:
+    check:
+      - content_id
+      - canonical_url
+      - slug
+      - normalized_title
+      - expression_id
+      - semantic_similarity
+
+    action_on_duplicate: "block_generation"
+
+  structured_data:
+    enabled: true
+
+    types:
+      weekly_pillar:
+        - "Article"
+        - "BreadcrumbList"
+
+      daily_lesson:
+        - "Article"
+        - "BreadcrumbList"
+
+  url_rules:
+    lowercase: true
+    use_hyphens: true
+    no_dates: true
+    no_parameters: true
+    avoid_stop_words_when_natural: true
