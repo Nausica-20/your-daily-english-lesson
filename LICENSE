@@ -1,0 +1,28 @@
+
+### `LICENSE`
+
+Se vuoi mantenere il progetto **privato**, non è necessario inserire una licenza open source.
+
+Se invece il repository sarà pubblico ma vuoi **impedire che altri possano riutilizzare liberamente articoli, database, template e contenuti**, non userei una classica MIT License.
+
+Per questo progetto sceglierei inizialmente una licenza proprietaria molto semplice:
+
+```text
+Copyright (c) 2026 Your Daily English Lesson
+
+All rights reserved.
+
+This repository and its contents, including but not limited to
+articles, editorial databases, YAML files, templates, prompts,
+images, website content, and other original materials, are
+protected by applicable copyright laws.
+
+No part of this repository may be copied, reproduced, modified,
+redistributed, republished, or used for commercial purposes
+without prior written permission from the copyright holder.
+
+The source code may be made available for viewing or development
+purposes, but no rights are granted to reproduce or redistribute
+the original content.
+
+For permission requests, please contact the repository owner.
