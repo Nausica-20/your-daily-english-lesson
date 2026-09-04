@@ -1,0 +1,105 @@
+affiliate:
+  enabled: true
+
+  partner:
+    name: "Babbel"
+    type: "language_learning_platform"
+
+  strategy:
+    primary_goal: "Convert qualified English-learning traffic"
+    secondary_goal: "Build trust before presenting the affiliate offer"
+
+    funnel:
+      stage_1:
+        name: "Discovery"
+        channels:
+          - Pinterest
+        objective: "Attract learners with useful English content"
+
+      stage_2:
+        name: "Education"
+        channels:
+          - website
+        objective: "Provide genuinely useful learning content"
+
+      stage_3:
+        name: "Engagement"
+        channels:
+          - weekly_pillar
+          - related_articles
+        objective: "Encourage continued learning"
+
+      stage_4:
+        name: "Conversion"
+        channels:
+          - contextual_cta
+        objective: "Introduce Babbel as a possible next step"
+
+  content_principles:
+    educational_first: true
+    affiliate_second: true
+    trust_first: true
+    transparent_disclosure: true
+
+    avoid:
+      - "Aggressive sales language"
+      - "Fake urgency"
+      - "Unsupported claims"
+      - "Guaranteed learning results"
+      - "Misleading discounts"
+      - "Affiliate CTA in every section"
+
+  cta:
+    enabled: true
+
+    placement:
+      daily_lessons:
+        default: "end"
+        frequency: "low"
+
+      weekly_pillar:
+        default: "end"
+        frequency: "contextual"
+
+    style:
+      informative: true
+      soft_sell: true
+      contextual: true
+
+    default_text_it: >
+      Ti è piaciuto imparare l'inglese attraverso situazioni reali?
+      Se vuoi continuare con un percorso strutturato e lezioni
+      pensate per la pratica quotidiana, puoi dare un'occhiata
+      a Babbel.
+
+  disclosure:
+    required: true
+
+    short_it: >
+      Questo sito contiene link affiliati. Se acquisti attraverso
+      uno di questi link, potremmo ricevere una commissione,
+      senza costi aggiuntivi per te.
+
+    placement:
+      - "footer"
+      - "affiliate_information_page"
+
+  editorial_rules:
+    no_hard_cta_every_article: true
+    no_fake_reviews: true
+    no_fake_testimonials: true
+    no_unverified_product_claims: true
+    no_guaranteed_results: true
+
+  tracking:
+    enabled: true
+
+    parameters:
+      source: "website"
+      campaign_pattern: "weekly-theme"
+      content_pattern: "content-id"
+
+  compliance:
+    disclose_affiliate_relationship: true
+    distinguish_editorial_from_promotional: true
+    verify_current_offer_before_publishing: true
