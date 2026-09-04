@@ -1,0 +1,176 @@
+editorial:
+  brand: "Your Daily English Lesson"
+
+  language_rules:
+    explanations: "Italian"
+    examples: "English"
+    dialogues: "English"
+    translations: "Italian"
+    headings:
+      default: "English"
+      explanatory: "English"
+
+  tone:
+    primary:
+      - clear
+      - friendly
+      - practical
+      - encouraging
+      - modern
+      - conversational
+
+    avoid:
+      - academic
+      - bureaucratic
+      - childish
+      - overly_formal
+      - salesy
+
+  target_reader:
+    profile: >
+      Italian-speaking English learner who wants to understand
+      and use everyday English naturally.
+
+    priorities:
+      - understanding_real_conversations
+      - speaking_naturally
+      - useful_vocabulary
+      - practical_grammar
+      - cultural_context
+
+  content_rules:
+    general:
+      - "Every lesson must have a clear real-life context."
+      - "Prefer useful language over rare vocabulary."
+      - "Explain English naturally in Italian."
+      - "Use realistic examples."
+      - "Avoid artificial dialogue."
+      - "Avoid unnecessary repetition."
+      - "Do not make content longer just to increase word count."
+      - "Every article must provide practical value."
+
+    english:
+      - "Prefer contemporary everyday English."
+      - "Distinguish standard, informal, idiomatic and slang language."
+      - "Do not label an expression as slang unless it genuinely is slang."
+      - "Do not present one English variety as universally correct."
+      - "Mention regional differences when relevant."
+
+    italian:
+      - "Use natural Italian."
+      - "Do not translate English literally when a natural Italian explanation is better."
+      - "Explain cultural or pragmatic differences when necessary."
+
+  weekly_theme:
+    principle: >
+      Each week revolves around one real-life situation.
+      All six daily lessons must contribute to the same
+      learning context.
+
+    required_components:
+      - dialogue
+      - vocabulary
+      - native_expressions
+      - situational_grammar
+      - idioms_or_informal_english
+      - culture
+      - weekly_pillar
+
+  monday:
+    objective: "Introduce the weekly situation through a realistic dialogue."
+
+    requirements:
+      dialogue:
+        min_turns: 6
+        max_turns: 14
+
+      include:
+        - context
+        - useful_phrases
+        - italian_explanation
+        - natural_english_notes
+
+      avoid:
+        - unnatural_dialogue
+        - overly_complex_language
+        - unnecessary_grammar_theory
+
+  tuesday:
+    objective: "Teach useful Oxford 3000 vocabulary connected to the weekly theme."
+
+    vocabulary:
+      default_count: 8
+      maximum_count: 12
+
+    requirements:
+      - "Select words relevant to the weekly situation."
+      - "Prefer high-frequency vocabulary."
+      - "Provide Italian meaning."
+      - "Provide an English example."
+      - "Keep examples connected to the weekly theme."
+
+  wednesday:
+    objective: "Teach expressions commonly used in natural everyday English."
+
+    expressions:
+      default_count: 5
+      maximum_count: 7
+
+    requirements:
+      - "Expressions must be genuinely useful."
+      - "Avoid artificial textbook phrases."
+      - "Explain meaning and usage."
+      - "Explain register when relevant."
+      - "Link each expression to its canonical expression ID."
+
+  thursday:
+    objective: "Teach grammar through the weekly situation."
+
+    requirements:
+      - "Start from communication, not grammar terminology."
+      - "Use examples from the weekly context."
+      - "Explain only the grammar needed."
+      - "Show natural alternatives when useful."
+      - "Avoid long theoretical grammar lessons."
+
+  friday:
+    objective: "Introduce idioms and informal English connected to the weekly theme."
+
+    requirements:
+      - "Clearly identify whether an item is an idiom, informal expression or slang."
+      - "Do not force slang into a theme if there is no genuinely useful example."
+      - "Prefer authentic expressions over novelty."
+      - "Explain when and where the expression is appropriate."
+
+  saturday:
+    objective: "Explain cultural context that helps the learner understand English."
+
+    requirements:
+      - "Focus on language and everyday behaviour."
+      - "Avoid generic geography or history."
+      - "Avoid stereotypes."
+      - "Mention regional variation when important."
+      - "Explain why a phrase or behaviour may be different."
+
+  sunday:
+    objective: "Create the Weekly Pillar that acts as the hub for the entire week."
+
+    structure:
+      - "What You'll Learn"
+      - "Real-Life Dialogue"
+      - "Essential Vocabulary"
+      - "Native Expressions"
+      - "Situational Grammar"
+      - "Idioms & Informal English"
+      - "English-Speaking Culture"
+      - "This Week's English"
+      - "Explore This Week's Lessons"
+      - "Continue Learning"
+
+    style:
+      schematic: true
+      scannable: true
+      tables_allowed: true
+      short_sections: true
+      exercises: false
+      quizzes: false
