@@ -1,0 +1,86 @@
+site:
+  name: "Your Daily English Lesson"
+  short_name: "Your Daily English Lesson"
+  language: "it"
+  content_language: "it"
+  learning_language: "en"
+
+  tagline: "Impara l'inglese attraverso situazioni reali."
+  description: >
+    Una lezione di inglese al giorno per imparare parole,
+    espressioni, grammatica e cultura attraverso situazioni
+    della vita quotidiana.
+
+  audience:
+    primary:
+      language: "Italian"
+      level:
+        - A1
+        - A2
+        - B1
+    secondary:
+      level:
+        - B2
+
+  learning_philosophy:
+    - "Learn English through real-life situations"
+    - "Prefer natural English over textbook-only English"
+    - "Teach vocabulary in context"
+    - "Teach grammar through communication"
+    - "Introduce culture through language"
+    - "Focus on useful English that learners can actually use"
+
+  editorial_principles:
+    practical: true
+    contextual: true
+    natural_english: true
+    progressive_learning: true
+    concise_explanations: true
+    italian_explanations: true
+    english_examples: true
+
+  restrictions:
+    audio: false
+    pronunciation_audio: false
+    forced_exercises: false
+    generic_quizzes: false
+    filler_content: false
+
+  weekly_structure:
+    monday:
+      name: "Real-Life Dialogue"
+      content_type: "dialogue"
+
+    tuesday:
+      name: "Oxford 3000 Vocabulary"
+      content_type: "vocabulary"
+
+    wednesday:
+      name: "Native Expressions"
+      content_type: "expressions"
+
+    thursday:
+      name: "Situational Grammar"
+      content_type: "grammar"
+
+    friday:
+      name: "Idioms & Informal English"
+      content_type: "idioms"
+
+    saturday:
+      name: "English-Speaking Culture"
+      content_type: "culture"
+
+    sunday:
+      name: "This Week in English"
+      content_type: "weekly_pillar"
+
+  weekly_pillar:
+    role: "weekly_hub"
+    is_seventh_independent_lesson: false
+    summarizes_week: true
+    links_to_daily_lessons: true
+    contains_original_content: true
+    contains_exercises: false
+    contains_quizzes: false
+    format: "schematic_reference_guide"
